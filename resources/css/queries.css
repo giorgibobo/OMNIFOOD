@@ -1,0 +1,167 @@
+/* Big tablet 1024px to 1200px */
+
+@media only screen and (max-width: 1200px){
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row{
+        padding: 0 2%;
+    }
+}
+
+/* Small tablet and big Tablet: from 768px to 1024px */
+
+@media only screen and (max-width: 1023px){
+    body{ font-size: 18px; }
+
+    .mobile-nav-icon{
+        display: block;
+    }
+
+    .mobile-nav-icon-btn{
+        color: black;
+    }
+
+    .main-nav{
+        display: none;
+        float: left;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+
+    .main-nav li{
+        display: block;
+    }
+
+    .main-nav li a:hover,
+    .main-nav li a:active{
+        padding: 10px 0;
+        font-size: 100%;
+        display: block;
+    }
+
+
+    section{  padding: 50px 0; }
+
+    .long-copy{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .app-screen {
+        width: 50%;
+    }
+
+    .works-steps p{ font-size: 90%; }
+
+    .works-steps div{
+        padding-top: 7px;
+        height: 40px;
+        width: 40px;
+        font-size: 100%;
+    }
+
+    .works-steps {
+        margin-top: 30px;
+    }
+
+    .btn-app img{
+        height: 35px;
+        width: auto;
+    }
+
+    .icon-small {
+        width: 15px;
+    }
+
+    .city-features{
+        font-size: 90%;
+    }
+
+    blockquote{
+        text-align: justify;
+        padding: 2%;
+    }
+
+    blockquote::before{
+        font-size: 300%;
+        left: -2px;
+    }
+
+    .plan-price{
+        font-size: 250%;
+    }
+
+    .plan-box div{
+        padding: 10px;
+    }
+
+    footer{
+        font-size: 90%;
+    }
+
+}
+
+/* big phone and small Tablet: from 481px to 768px */
+
+@media only screen and (max-width: 767px){
+    body{ font-size: 16px; }
+    section{ padding: 30px; }
+    .main-nav{
+        display: block;
+        float: left;
+    }
+
+    .row, .hero-text-box{
+        padding: 0 4%;
+    }
+
+    .col{
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+    .long-copy{
+        width: 96%;
+        margin-left: 2%;
+    }
+
+    h1{ font-size: 170%; }
+    h2{ font-size: 130%; }
+
+    .steps-box:first-child{
+        text-align: center;
+    }
+
+    .contact-form{
+        width: 90%;
+    }
+
+    footer{
+        padding-top: 15px;
+    }
+
+    footer p{
+        margin-top: 5px;
+    }
+
+}
+/* Small phone and big Tablet: from 0px to 480px */
+
+@media only screen and (max-width: 480px){
+    section{ padding: 25px 0; }
+
+
+    .logo{
+        margin: 5px;
+    }
+    
+    .main-nav{
+        display: none;
+        margin-left: 5px;
+    }
+
+    .contact-form{ width: 100%; }
+}
